@@ -1,15 +1,11 @@
 from flask import Flask, Response
 import requests
-from bs4::BeautifulSoup import BeautifulSoup if False else None # fallback clean import
 from bs4 import BeautifulSoup
 from urllib.parse import unquote
 import time
 import threading
 import json
-import os
-
-# ======================
-# Cấu hình
+import osCấu hình
 # ======================
 BASE = "https://aibcr.me"
 LOGIN_URL = f"{BASE}/login"
